@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nearfaces</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_faces">Search faces</string>
+    <string name="welcome_to">Welcome to Nearfaces</string>
+    <string name="about_this">This app was successfully
+        made by Fan Ei, Jose Luis Morales and Alexandre Sfez.
+        UI Design by Alexandre Sfez, develoment by Fan Ei
+        Jose Luis Morales and Alexandre Sfez.</string>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="facebook_blue">#0084ff</color>
+    <color name="facebook_blue_pressed">#ff0064c8</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="yellow_bluetooth">#ffffc818</color>
+    <color name="action_bar_color">#0084ff</color>
+    <color name="bluetooth_color">#ff0061b2</color>
+    <color name="bluetooth_color_pressed">#ff004ca1</color>
+
+    <string name="title_activity_help">First Steps</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_about">About</string>
+    <string name="contact">Contact us here:</string>
+    <string name="title_activity_first_steps">First Steps</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gpsorbluetooth">You can either find Faces with Bluetooth or GPS. Witch would you like to use ?</string>
+    <string name="gps">GPS</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_use">Yes, use Bluetooth !</string>
+    <string name="contentBluetooth">Bluetooth Logo</string>
+    <string name="title_activity_bluetooth">Bluetooth Finder</string>
+
+</resources>

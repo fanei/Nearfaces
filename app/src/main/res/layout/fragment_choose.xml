@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xanderapps.nearfaces.FragmentChoose">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gpsorbluetooth"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:src="@drawable/ic_arrow"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageViewArrow5"
+        android:layout_gravity="left|center_vertical"
+       />
+
+    <ImageView
+        android:src="@drawable/ic_arrow"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageViewArrow6"
+        android:layout_gravity="right|center_vertical"
+        />
+
+
+</FrameLayout>

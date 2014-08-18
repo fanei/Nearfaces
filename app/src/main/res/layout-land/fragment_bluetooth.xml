@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".util.FragmentGreen">
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/bluetoothButton"
+        android:text="@string/bluetooth_use"
+        android:textColor="@color/bluetooth_color"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:background="@drawable/bluetooth_selector"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:onClick="bluetooth"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:adjustViewBounds="true"
+        android:layout_marginTop="10dp"
+         android:src="@drawable/ic_b_logo"
+         android:layout_width="300dp"
+         android:layout_height="100dp"
+         android:id="@+id/imageView"
+         android:layout_gravity="center_horizontal|top"
+         android:contentDescription="@string/contentBluetooth" />
+
+
+    <ImageView
+        android:src="@drawable/ic_arrow"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageViewArrow"
+        android:layout_gravity="right|center_vertical" />
+
+    <ImageView
+        android:src="@drawable/ic_arrow_reverse_small"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageViewArrow2"
+        android:layout_gravity="left|center_vertical" />
+
+
+</FrameLayout>

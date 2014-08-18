@@ -1,0 +1,24 @@
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/facebook_blue">
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:text="Swype down to refresh"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        </ScrollView>
+
+</android.support.v4.widget.SwipeRefreshLayout>

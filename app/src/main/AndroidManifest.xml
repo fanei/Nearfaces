@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xanderapps.nearfaces" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".WelcomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.xanderapps.nearfaces.WelcomeActivity" />
+        </activity>
+        <activity
+            android:name=".FirstSteps"
+            android:label="@string/title_activity_first_steps"
+            android:parentActivityName=".WelcomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.xanderapps.nearfaces.WelcomeActivity" />
+        </activity>
+        <activity
+            android:name=".BluetoothActivity"
+            android:label="@string/title_activity_bluetooth"
+            android:icon="@drawable/ic_bluetooth_logo_single"
+            android:parentActivityName=".FirstSteps"
+            android:theme="@style/BluetooothTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.xanderapps.nearfaces.FirstSteps" />
+        </activity>
+    </application>
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+
+</manifest>

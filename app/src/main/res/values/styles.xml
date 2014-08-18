@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/action_bar_color</item>
+    </style>
+
+    <style name="BluetooothTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+
+
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/BluetooothActionBar</item>
+    </style>
+
+    <style name="BluetooothActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/yellow</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleTextStyle</item>
+    </style>
+
+    <style name="ActionBarTitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+
+
+</resources>
